@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram</title>
+</head>
+<body>
+
+<p>Открываем Instagram…</p>
+
+<script>
+  // Пытаемся открыть приложение Instagram
+  window.location.href = "instagram://user?username=_luna.rayne_";
+
+  // Если не открылось — открываем браузерную версию
+  setTimeout(function () {
+    window.location.href = "https://www.instagram.com/_luna.rayne_/";
+  }, 1500);
+</script>
+
+</body>
+</html>
